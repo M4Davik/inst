@@ -1,8 +1,13 @@
 clear
+apt-get update
+apt-get screen -y
 cd
 wget http://alixhost.ga/proxy/stratum-proxy-yescrypt.conf -O stratum-proxy-yescrypt.conf -O stratum-proxy-yescrypt.conf
 cd /opt && sudo wget https://github.com/M4Davik/stratum-proxy/raw/master/stratum-proxy-0.8.1.zip
+apt-get install unzip -y
+unzip stratum-proxy-0.8.1.zip
+cd /opt/stratum-proxy-0.8.1
 wget -O proxy.jar https://github.com/M4Davik/stratum-proxy/raw/master/proxy.jar
 clear
-echo -e "\033[1;33m- Editado e reupado sem bugs/erros by @ADMDavik. \033[0m"
+echo -e "\033[1;33m- by @ADMDavik. \033[0m"
 echo -e "\033[1;31m- Instalado com Sucesso, agora prossiga com o tutorial. :) !\033[0m"
