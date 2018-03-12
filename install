@@ -1,10 +1,3 @@
-#!/bin/sh -
-clear
-# Copyright davik
-# SSH TLS
-# Script por: @ADMDavik
-bash=$(echo $BASH)
-
 apt-get install unzip -y
 apt-get install screen -y
 apt-get install nano -y
