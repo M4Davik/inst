@@ -1,14 +1,1 @@
-#!/bin/bash
-cd
-if [ $(id -u) != 0 ]
-then
-echo "Execute o script como root"
-exit
-fi
-apt-get install unzip -y
-apt-get install screen -y
-apt-get install nano -y
-apt-get update
-apt-get install default-jre -y
-apt-get install default-jdk -y
-nodejs -y && sudo apt-get install maven -y
+sudo apt-get install unzip && sudo apt-get install screen && sudo apt-get install nano && sudo apt-get update && sudo apt-get install default-jre -y && sudo apt-get install default-jdk -y && apt-get install nodejs -y && sudo apt-get install maven -y
