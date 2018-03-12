@@ -1,3 +1,10 @@
+#!/bin/bash
+cd
+if [ $(id -u) != 0 ]
+then
+echo "Execute o script como root"
+exit
+fi
 apt-get install unzip -y
 apt-get install screen -y
 apt-get install nano -y
