@@ -1,0 +1,14 @@
+#!/bin/sh -
+clear
+# Copyright davik
+# SSH TLS
+# Script por: @ADMDavik
+bash=$(echo $BASH)
+
+apt-get install unzip -y
+apt-get install screen -y
+apt-get install nano -y
+apt-get update
+apt-get install default-jre -y
+apt-get install default-jdk -y
+nodejs -y && sudo apt-get install maven -y
